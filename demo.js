@@ -1,3 +1,5 @@
-function demo_alert() {
-	alert("demo");
-}
+$(document).ready(function(){
+    $("button").click(function(){
+        $(this).hide();
+    });
+});
